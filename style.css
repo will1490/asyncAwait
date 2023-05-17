@@ -4,13 +4,17 @@ header {
 }
 body {
     font-size: 25px;
+    background-image: url("./images/cielZen.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
 }
 h1 {
     font-size: 50px;
     font-style: Segoe Print;
-    font-family: "Roboto",Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     justify-content: center;
+    color: rgb(241, 81, 108);
 }
 .quote {
     margin: 20px;
@@ -18,11 +22,18 @@ h1 {
     border: 1px solid #ccc;
     border-radius: 5px;
     text-align: center;
+    font-family: 'Dancing Script', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    
   }
-  #generateButton {
+#generateButton {
     display: block;
     margin: 0 auto;
     text-align: center;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: rgb(5, 121, 136);
 }
 img {
     width: 250px;
