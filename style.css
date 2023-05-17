@@ -1,0 +1,30 @@
+header {
+    height: 80px;
+    background-color: pink;
+}
+body {
+    font-size: 25px;
+}
+h1 {
+    font-size: 50px;
+    font-style: Segoe Print;
+    font-family: "Roboto",Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.quote {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  #generateButton {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+img {
+    width: 250px;
+    height: 250px;
+}
